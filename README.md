@@ -4,6 +4,15 @@ lgtm-gitlab is used to auto merge gitlab CE MR with your LGTM like [gitlab EE ap
 
 # Usage
 
+## This project is located on github. 
+ The source for the project is as https://github.com/roberte3/lgtm-gitlab
+ The project is forked from github.com/cloverstd/lgtm-gitlab/
+
+## To install on a gitlab project. 
+
+Create a webhook (go to Project Settings -> Webhooks) that points to gitlab-ci-build-on-merge-request server (e.g. "http://gitlab-ci-build-on-merge-request.example.com/hook") and has "Merge Request events" as a trigger.
+
+
 ## Access token
 
 You should create a access token on your gitlab.
